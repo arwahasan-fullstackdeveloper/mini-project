@@ -28,9 +28,7 @@ body{
     width: 500%;
      margin: auto;
      padding-right: 50px;
-     
-     
-     
+
      
     }
 
@@ -312,13 +310,12 @@ margin-top: 500px;
     transition: all ease 1.1s;
    
    
-} */
+} 
 #popular-product{
     display: flex;
     max-width: 100px;
     margin-left: 140px;
-    margin: 50 auto;
-
+    margin: 50px  auto;
 
 }
 #popular-winterfruit{
