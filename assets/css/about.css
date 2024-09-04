@@ -1,0 +1,118 @@
+header{ 
+    width: 100%;
+    height: 90px;
+    background-color: #2fbcbc;
+    position: fixed;
+    z-index: 90px;
+}
+.header img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header.text h1{
+    margin-left: 140px;
+    padding-bottom: 100px;
+    top: 10px; 
+}
+
+ ul{
+    list-style: none;
+    padding-bottom: 90px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin-right:  90px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+} 
+ .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    max-width: 1070px;
+    height: 100px;
+    width: 1000px;
+     margin: auto;
+     padding-left: 600px;
+     background-color: #23a57100;
+     position: fixed;
+ }
+
+.menu{
+    display: flex;
+    transition: all;
+    transition-duration: 2;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+    margin: 90px;
+}
+menu li a{
+    padding: 3px 50px;
+    margin: 0px 15px;
+    color: #0f0f0f;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    list-style-type: none;
+     text-decoration: none;
+    transition: all;
+    transition-duration: 1;
+    display: list-item;
+    font-family: inherit;
+    text-transform: capitalize;
+    padding: 15px;
+    transition-timing-function: linear; 
+   }
+   a:hover{
+    background-color: #19ecc9; 
+       transition: 2 ease; 
+    transition-duration: 1s;
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    transition-timing-function: linear;
+    transition-property: all;
+
+   }
+   .about{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+justify-content: space-between;}
+.about.about image img{
+    width: 650px;
+}
+.about.about-tag h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.about.about-tag p{
+    width: 650px;
+   text-align: justify;
+   line-height: 23px;
+   margin-bottom: 30px;
+}
+.about.about.about-tag.about-btn{
+    padding: 8px 20px;
+    background-color: orange;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #0f0f0f;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.about.about.about-tag.about-btn :hover{
+    border-bottom-left-radius: 8px;
+}
+
