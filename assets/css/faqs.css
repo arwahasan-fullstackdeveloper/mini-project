@@ -1,50 +1,82 @@
 
-
-header{
-    position: fixed;
-    background-color: #787f84;
-    border-radius: 10px;
-    z-index: 90;
-    width: 1100px;
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
 }
-
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: #3372f2;
+        color: #fff;
+    width: 100%;
+    padding: 15px ;
+    /* text-align: center; */
+    position: fixed;
+    z-index: 100;
+}
 nav>ul{
     display: flex;
-    margin-left: 100px;
-
+justify-content: space-evenly;
+position: relative;
+right: 20px;
 
 }
 nav>ul>li>a{
-    padding:50px;
-    padding-right: 90px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    }
+  
+a:hover{
+   color: #b43c3c;
+   transition: 2 ease; 
+transition-duration: 0.9s;
+background-color:rgb(14, 33, 138);
+text-decoration: none;
+text-transform: capitalize;
+transition-timing-function: linear;
 }
+.logo>img{
+width: 100px;
+position: relative;
+right: 40px;
+/* padding-right: 20px; */
+}
+.container1{
+position: relative;
+top: 100px;
+
+}
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
-
+   
     
 }
 
 /* Basic styling for body */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #4dcbcb;
+    background-color: #4dcbba;
     color: #b51818;
-}
-
-
-
-
+} 
 /* Main section styling */
 main {
     padding: 1rem;
+     top: 90px;
 }
 
 /* FAQ section styling */
 .faq-section {
     margin-bottom: 2rem;
-    top: 90px;
+    top: 10px;
     
 }
 
@@ -93,6 +125,94 @@ width: 900px;
 transition: 0.9s;
 transform-origin: 3svh;
 transition-duration: 1s;
+
 }
+footer{
+    background-color:beige;
+    position: relative;
+    
+}
+.footercontainer{
+width:100px;
+padding: 70px 30px 20px;
+}
+.socialicons{
+display: flex;
+justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin: 10px;
+    border-radius:50px ;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: red;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialicons a :hover i{
+color:white;
+transition: 0.5s;
+}
+.footernav{
+    margin: 30px;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+ 
+}
+.footernav ul li a{
+    color: rgb(167, 28, 28);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.9s;
+    opacity: 0.9;
+    transition-duration: none;
+    text-transform: capitalize;
+  
+}
+.footernav ul li a:hover{
+opacity: 1;
+}
+.footerbottom{
+    background-color:white;
+    padding: 20px;
+}
+.footerbottom p{
+color: rgb(78, 72, 72);
+display: flex;
+padding-left: 450px;
+
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width:70px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+        padding-left: 80px;
+        
+    }
+}
+
+
+
 
 

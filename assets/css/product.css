@@ -1,85 +1,4 @@
-/* body{
-    margin: 0;
-    font-family: fantasy;
-    background-color: antiquewhite;
-}
-h3{
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
-    margin: 0;
-}
-a{
-    text-decoration: none;
-    
-}
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100px;
-    margin: 50px 0;
-}
-.content{
-    width: 20px;
-    margin: 15px;
-    justify-content: center;
-    box-sizing: border-box;
-    float: left;
-    border-radius: 20px;
-    cursor: pointer;
-    padding-top: 10px;
-    text-align: center;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25)
-    0 10px 10px rgba(0,0, 0, 0.22);
-    transition: 4s;
-
-}
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content:hover{
-    box-shadow: 0,3,6 rgba(0, 0, 0, 0.16),
-    0,3,6 rgba(0, 0, 0, 0.23);
-    transform: translate(0px, -8px);
-}
-img{
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-}
-p{
-    text-align: center;
-    padding-top: 0 8px;
-    background-color: aqua;
-}
-h6{
-    font-size: 26px;
-    text-align: center;
-    color: black;
-}
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-}
-li{
-    padding: 5px;
-}
-.fa{
-    font-size: 26px;
-    transition: .4s;
-    margin: 3px;
-}
-.checked{
-color: orange;
-} */
+/* 
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -161,4 +80,68 @@ button:hover {
 
 .show {
     display: block;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.fruit-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.fruit-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.fruit-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }

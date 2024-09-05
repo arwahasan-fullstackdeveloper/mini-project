@@ -1,51 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: #0044cc;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    /* text-align: center; */
+    position: fixed;
+    z-index: 100;
+}
+nav>ul{
+    display: flex;
+justify-content: space-evenly;
+position: relative;
+right: 20px;
 
-   
-    *{
-        padding: 0%;
-        margin: 0;
-        box-sizing: border-box;
+}
+nav>ul>li>a{
+    position: relative;
+    top: 10px;
+    padding: 20px;
     }
-    
-    header{
-        position: fixed;
-        background-color: #787f84;
-        border-radius: 10px;
-        z-index: 90;
-    }
-    
-    nav>ul{
-        display: flex;
-        margin-left: 100px;
-    
-    
-    }
-    nav>ul>li>a{
-        padding:50px;
-        padding-right: 90px;
-        }
-      
-   a:hover{
-       color: #b43c3c;
-       transition: 2 ease; 
-    transition-duration: 0.9s;
-    
-    text-decoration: none;
-    text-transform: capitalize;
-    transition-timing-function: linear;
+  
+a:hover{
+   color: #b43c3c;
+   transition: 2 ease; 
+transition-duration: 0.9s;
+background-color: #4d544d;
+text-decoration: none;
+text-transform: capitalize;
+transition-timing-function: linear;
+}
+.logo>img{
+    width: 100px;
+    position: relative;
+    right: 40px;
+    /* padding-right: 20px; */
+}
+.container1{
+    position: relative;
+    top: 100px;
 
-   
-   }
-    
+}
+
 
 .contact{
     min-height: 100vh;
-    background-color: #2fbcbc;
+    background-color: #395465;
+
     padding: 50px;
     text-align: center;
 }
 .container{
     max-width: 900px;
     margin: 0 auto;
+    top: 90px;
+    position: relative;
 }
 .container h2{
     font-size: 36px;
