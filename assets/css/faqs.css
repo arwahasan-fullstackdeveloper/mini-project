@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     color:royalblue;
+    background-color: lightgrey;
 }
 header {
     background: #0044cc;
@@ -51,7 +52,7 @@ transition-timing-function: linear;
 }
 .container1{
     position: relative;
-    top: 100px;
+    
 
 }
 
@@ -61,23 +62,17 @@ body, h1, h2, p {
    
     
 }
-
-/* Basic styling for body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #4dcbba;
-    color: #b51818;
-    
-} 
 /* Main section styling */
 main {
     padding: 1rem;
+    top: 100px;
+    position: relative;
 }
 
 /* FAQ section styling */
 .faq-section {
     margin-bottom: 2rem;
-    top: 10px;
+   
     
 }
 
