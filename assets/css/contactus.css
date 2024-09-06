@@ -5,7 +5,6 @@
 }
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
@@ -36,7 +35,7 @@ a:hover{
    color: #b43c3c;
    transition: 2 ease; 
 transition-duration: 0.9s;
-background-color: #4d544d;
+background-color:rgb(14, 33, 138);
 text-decoration: none;
 text-transform: capitalize;
 transition-timing-function: linear;
@@ -52,7 +51,6 @@ transition-timing-function: linear;
     top: 100px;
 
 }
-
 
 .contact{
     min-height: 100vh;
@@ -156,7 +154,7 @@ transition: 0.5s;
 .footernav ul{
     display: flex;
     justify-content: center;
-    list-style: nonedisc;
+  
 }
 .footernav ul li a{
     color: rgb(167, 28, 28);

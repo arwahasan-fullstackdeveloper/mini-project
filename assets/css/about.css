@@ -9,7 +9,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    color:black;
 }
 header {
     background: #0044cc;
@@ -36,7 +36,8 @@ a:hover{
    color: #b43c3c;
    transition: 2 ease; 
 transition-duration: 0.9s;
-background-color: #4d544d;
+background-color:rgb(14, 33, 138);
+
 text-decoration: none;
 text-transform: capitalize;
 transition-timing-function: linear;
@@ -70,7 +71,7 @@ nav ul li {
 }
 
 nav a {
-    color: #fff;
+    color:red;
     text-decoration: none;
 }
 
