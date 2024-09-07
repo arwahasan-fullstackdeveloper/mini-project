@@ -12,8 +12,8 @@
        
     }
     header {
-        background: #0044cc;
-        color:white;
+        background-color: #0044cc;
+        color:darkcyan;
         width: 100%;
         padding: 15px ;
         position: fixed;

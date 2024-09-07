@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     color:royalblue;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 header {
     background: #0044cc;
@@ -25,7 +25,7 @@ nav>ul{
 justify-content: space-evenly;
 position: relative;
 right: 20px;
-
+list-style: none;
 }
 nav>ul>li>a{
     position: relative;
@@ -65,7 +65,7 @@ body, h1, h2, p {
 /* Main section styling */
 main {
     padding: 1rem;
-    top: 100px;
+    top: 160px;
     position: relative;
 }
 

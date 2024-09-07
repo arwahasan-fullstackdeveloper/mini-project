@@ -12,7 +12,7 @@ body {
     background-color:lightgray;
 }
 header {
-    background: #0a52e3;
+background-color: #0a52e3;
     color:white;
     width: 100%;
     padding: 15px ;
@@ -24,13 +24,14 @@ nav>ul{
 justify-content: space-evenly;
 position: relative;
 right: 20px;
+color:rebeccapurple;
 
 }
 nav>ul>li>a{
     position: relative;
     top: 20px;
     padding: 20px;
-    color: red;
+    color:white;
     }
   
 a:hover{
@@ -190,7 +191,6 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
     margin-right: 1rem;
 }
 
@@ -209,11 +209,9 @@ main {
 
 section :hover{
    transition: 0.9s;
-   color: #77aaf7; 
+   color: #f7ea77; 
     margin-bottom: 1.5rem;
     transform: 3s;
-   
-
 }
 
 section h2:hover {
@@ -230,6 +228,12 @@ font-size: 90px;
 color: lightsalmon;
 background-color: rgb(90, 6, 90);
 
+}
+.mango>img:hover{
+    transition: 0.9s ease all;
+    transform: 2s;
+    text-transform: capitalize;
+    text-decoration: bisque;
 }
 footer{
     background-color: beige;
