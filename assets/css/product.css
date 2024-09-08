@@ -13,7 +13,7 @@ body {
 }
 header {
 background-color: #0a52e3;
-    color:white;
+    
     width: 100%;
     padding: 15px ;
     position: fixed;
@@ -31,7 +31,7 @@ nav>ul>li>a{
     position: relative;
     top: 20px;
     padding: 20px;
-    color:white;
+  color: red;
     }
   
 a:hover{
@@ -43,8 +43,6 @@ text-decoration: none;
 text-transform: capitalize;
 transition-timing-function: linear;
 }
-
-
 .logo>img{
 width: 100px;
 position: relative;

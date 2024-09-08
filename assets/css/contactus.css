@@ -29,6 +29,7 @@ list-style: none;
 nav>ul>li>a{
     position: relative;
     top: 10px;
+    color: red;
     padding: 20px;
     }
   

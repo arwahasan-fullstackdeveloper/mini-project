@@ -31,6 +31,7 @@ nav>ul>li>a{
     position: relative;
     top: 20px;
     padding: 20px;
+    color: red;
     }
   
 a:hover{
@@ -115,6 +116,7 @@ main {
 /* Image section styling */
 .image-section {
     text-align: center;
+
 }
 .image-section:hover{
 width: 900px;
@@ -126,6 +128,7 @@ transition-duration: 1s;
 footer{
     background-color:beige;
     position: relative;
+    top: 150px;
     
 }
 .footercontainer{
